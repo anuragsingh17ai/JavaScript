@@ -15,4 +15,4 @@
 console.log('2'==2)  //true
 console.log("2"===2) //false
 
-//2:10 hour
+//2:10 hou
