@@ -1,6 +1,9 @@
  const arr = [1,2,3,4,5];
  console.log(arr);
 
+ const anotherArr = new Array(2,3,"anurag",3.44)
+ console.log(anotherArr)
+
  console.log(arr[0]) // 1  as zero based indexing
 
  arr.push(6)
@@ -12,6 +15,9 @@
  arr.unshift(0);  // will add zero in starting
  console.log(arr);
 
+ console.log(arr.includes(2)) //true
+ console.log(arr.indexOf(2)) //1
+ 
  arr.shift();  //will remove starting element
  console.log(arr);
 
